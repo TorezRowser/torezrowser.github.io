@@ -1,128 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
 body {
+  font-family: "Rubik", sans-serif;
   background: black;
-  color: white;
+  color: #fff;
+  line-height: 1.7;
+  overflow-x: hidden;
+  background-image: url("img/hheader.jpg");
 }
 
-nav {
-  padding: 5px;
-  padding: 5px;
+#hLogo {
+  padding-top: 25px;
+  padding-left: 25px;
+  width: 100%;
 }
 
-#linksBar span {
-  margin-left: 5px;
-  margin-right: 5px;
-  font-size: 12px;
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
-#linksBar span:hover {
-  color: gray;
+a:hover {
+  color: #ccc;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+#hlogos {
+  width: 620px;
+  margin: 30px 10;
+  padding-bottom: 20px;
+}
+
+.header nav .login-btn {
   cursor: pointer;
-}
-
-#icons span {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#headlineContent {
-  background-image: url("img/cover.jpg");
-  min-height: 550px;
-  background-size: cover;
-}
-
-#netflixN {
-  height: 25px;
-}
-
-#seriesRow {
-  color: darkgray;
+  background: none;
+  border: none;
+  color: #fff;
   font-weight: bold;
-  letter-spacing: 5px;
   text-transform: uppercase;
-  margin-top: 150px;
+  letter-spacing: 1px;
 }
 
-#showName {
-  font-family: "Cabin", sans-serif;
-  font-size: 56px;
-  text-shadow: 2px 2px black;
+.btn-secondary {
+  margin-top: 25px;
+  margin-left: 100px;
+  color: black;
 }
 
-#trendingStatus img {
-  width: 25px;
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 100px;
 }
 
-#trendingStatus span {
-  font-weight: bold;
-  padding-left: 10px;
-  text-shadow: 1px 1px black;
+.btn-cta {
+  background-color: #1ce783;
+  height: 50px;
+  width: 700px;
+  margin-bottom: 20px;
 }
 
-#headlineContent p {
-  margin-top: 10px;
+.header-content h6 {
+  color: #1ce783;
+  padding-bottom: 20px;
+  font-size: 15px;
 }
 
-#play {
-  background: white;
-  border-radius: 2px;
-  border: none;
-  padding: 5px 20px 5px 20px;
-  font-weight: 500;
+.header-text-1 {
+  padding-bottom: 20px;
+  font-size: 24px;
 }
 
-#buttonRow .material-symbols-outlined {
-  font-size: 28px;
+.huluOnlysignup {
+  margin-bottom: 125px;
 }
 
-#moreInfo {
-  background: rgba(120, 120, 120, 0.8);
-  border-radius: 2px;
-  border: none;
-  padding: 5px 20px 5px 10px;
-  font-weight: 500;
-  color: white;
-}
-
-#moreInfo span {
-  margin-left: 10px;
-}
-
-#ratingCol {
-  margin-top: 250px;
-}
-
-#ratingCol .material-symbols-outlined {
-  border: 2px solid white;
-  border-radius: 100px;
-  padding: 5px;
-}
-
-#rating {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 5px 20px 5px 20px;
-  border-left: 2px solid white;
-  margin-left: 10px;
-}
-
-#firstVideoRowLabel {
-  margin-top: 20px;
-}
-
-#abnormalScreenSize {
-  display: none;
-}
-
-@media only screen and (max-width: 650px), (min-width: 1400px) {
-  #abnormalScreenSize {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-  }
-  .container-fluid {
-    display: none;
-  }
+.Included {
+  color: #1ce783;
 }
